@@ -4,9 +4,9 @@
   "description": "Node Server Testing Challenge",
   "main": "server.js",
   "scripts": {
-    "test:watch": "process.env.NODE_ENV jest --watch",
-    "test": "process.env.NODE_ENV jest",
-    "server": "process.env.NODE_ENV node index.js"
+    "test:watch": "jest --watch",
+    "test": "jest",
+    "server": "node index.js"
   },
   "jest": {
     "testEnvironment": "node"
